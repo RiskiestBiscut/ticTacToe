@@ -1,0 +1,56 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+html {
+  font-size: 62.50%;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+section {
+  width: 600px;
+  height: 600px;
+  border: 0.3em solid black;
+  margin: 4rem;
+}
+
+ul {
+  display: flex;
+  height: 33.33%;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  Width: 33.33%;
+  height: auto;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18rem;
+  border: 0.3rem solid black;
+}
+
+h1 {
+  text-align: center;
+  font-size: 4rem;
+}
+
+button {
+  margin-left: 4rem;
+  font-size: 2rem;
+  padding: 0.5rem 3rem;
+}
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
